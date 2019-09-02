@@ -17,7 +17,7 @@ Page({
         })
     },
     onPullDownRefresh: function() {
-        console.log('下拉刷新2')
+        console.log('下拉刷新1')
         this.setData({ aa: "别刷新了,蠢猪" })
             // Do something when pull down.下拉刷新
     },
