@@ -1,0 +1,10 @@
+/* pages/login/login.wxss */
+input{
+  border-bottom: 1px solid black;
+}
+.margin-top-20{
+  margin-top: 60rpx;
+}
+button{
+  width: 90%;
+}
