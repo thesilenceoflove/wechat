@@ -50,5 +50,5 @@ App({
     console.log('启动小程序--hide')
     console.log(option)
   },
-  globalData:{SERVER:"cj.cqeec.com"}
+  globalData:{SERVER:"http://cj.cqeec.com"}
 })
