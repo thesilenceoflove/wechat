@@ -16,6 +16,10 @@ Page({
  loign: {
    
  },
+ nameChanged:function(e){
+   this.data.user.name = e.detail.value;
+   this.setData({"user":{name:e.detail.value}});
+ },
  loign:function(e){
    console.log(e);
    wx.request({

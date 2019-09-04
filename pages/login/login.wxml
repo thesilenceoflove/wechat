@@ -1,5 +1,5 @@
 <view class="container">
-    <input class="margin-top-20" type="text" placeholder="请输入账号"></input>
+    <input class="margin-top-20" type="text" bindinput="nameChanged" placeholder="请输入账号"></input>
     <input class="margin-top-20" password="true" placeholder="请输入密码"></input>
 
     <switch class="margin-top-20">学生</switch>
